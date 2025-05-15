@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiến trúc xây dựng</title>
+    <link rel="icon" type="https://kientrucxaydungtlt.com/images/favicon.png" href="https://kientrucxaydungtlt.com/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.post.css">
+    <link rel="stylesheet" href="style.form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    
+</head>
+<body>
+    <div class="container">
+        <div class="marquee-wrapper">
+            <marquee behavior="scroll" direction="left" scrollamount="5">
+                <span>
+                KIẾN TRÚC XÂY DỰNG TLT.COM CHUYÊN XÂY NHÀ PHẦN THÔ, XÂY NHÀ TRỌN GÓI, SỬA NHÀ TRỌN GÓI GIÁ RẺ TPHCM, ĐỒNG NAI, BÌNH DƯƠNG VÀ CÁC TỈNH LÂN CẬN.
+                GIÁ THÔ 3.100.000 VND/M2 ĐẾN 3.800.000 VND/M2 - GIÁ TRỌN GÓI 4.850.000 VND/M2 ĐẾN 7.500.000 VND/M2
+                </span>
+            </marquee>
+        </div>
+        <header>
+            <div class="header">
+                <div class="logo">
+                    <img src="https://kientrucxaydungtlt.com/images/favicon.png" alt="">
+                </div>
+                <div class="info-nd">
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="info">
+                        <h2>CÔNG TY CP KIẾN TRÚC XÂY DỰNG TLT.COM</h2>
+                        <p>Điện thoại: 0976 272 186</p>
+                        <p>Email: kientrucxaydungtlt8688@gmail.com</p>
+                    </div>
+                </div>
+        
+                <div class="search">
+                    <form action="">
+                        <input type="text" placeholder="Nhập từ khóa" />
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <input type="checkbox" id="toggler">
+            <label for="toggler" class="fas fa-bars"></label>
+            <div class="nav">
+                <ul class="main-menu">
+                    <li class="home"><a href="#">TRANG CHỦ</a></li>
+                    <li>
+                        <a href="#">GIỚI THIỆU <i class="fas fa-chevron-down"></i></a>
+                        <ul class="sub_menu">
+                            <li><a href="#">Về chúng tôi</a></li>
+                            <li><a href="#">Sứ mệnh Công ty</a></li>
+                            <li><a href="#">Mục tiêu Công ty</a></li>
+                            <li><a href="#">Chiến lược kinh doanh</a></li>
+                            <li><a href="#">Năng lực nhân sự</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">DỊCH VỤ <i class="fas fa-chevron-down"></i></a>
+                        <ul class="sub_menu">
+                            <li><a href="#">Xây nhà trọn gói</a></li>
+                            <li><a href="#">Xây nhà phần thô</a></li>
+                            <li><a href="#">Xây dựng biệt thự</a></li>
+                            <li><a href="#">Sửa chữa nhà</a></li>
+                            <li><a href="#">Thiết kế kiến trúc</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">DỰ ÁN <i class="fas fa-chevron-down"></i></a>
+                        <ul class="sub_menu">
+                            <li><a href="#">Công trình thi công</a></li>
+                            <li><a href="#">Nhà Phố 2 tầng</a></li>
+                            <li><a href="#">Nhà phố 3 tầng</a></li>
+                            <li><a href="#">Nhà phố 4 tầng</a></li>
+                            <li><a href="#">Nhà cấp 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">BẢNG BÁO GIÁ <i class="fas fa-chevron-down"></i></a>
+                        <ul class="sub_menu">
+                            <li><a href="#">Bảng báo giá thiết kế kiến trúc</a></li>
+                            <li><a href="#">Bảng báo giá xây nhà phần thô</a></li>
+                            <li><a href="#">Bảng báo giá xây nhà trọn gói</a></li>
+                            <li><a href="#">Bảng báo giá xây nhà cấp 4</a></li>
+                            <li><a href="#">Bảng báo giá sửa nhà trọn gói</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">CẨM NANG XD <i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#">LIÊN HỆ</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="Slideshow">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://kientrucxaydungtlt.com/Upload/SlideShow/testbannerbietthudep-08112024051755.jpg?v=004" alt="Slide 1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://kientrucxaydungtlt.com/Upload/SlideShow/banner-moi-2024-08112024052649.png?v=004" alt="Slide 2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://kientrucxaydungtlt.com/Upload/SlideShow/bannerweb1-08112024052604.jpg?v=004" alt="Slide 3">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://kientrucxaydungtlt.com/Upload/SlideShow/banner-2025-10052025013646.jpg?v=004" alt="Slide 4">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div> 
+            
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                loop: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                });
+            </script>
+        </section>
+        <main>
+            <section class="about">
+                <div class=heading>
+                    <img src="https://kientrucxaydungtlt.com/images/favicon.png" alt="">
+                    <h1>Về chúng tôi</h1>
+                </div>
+                <div class="hr-wrapper">
+                    <hr class="centered-hr">
+                </div>
+                <h2>
+                    Kiến Trúc Xây Dựng TLT.Com chuyên xây nhà phần thô, xây nhà trọn gói, 
+                    sửa chữa nhà trọn gói tại khu vực TP.HCM, Đồng Nai, Bình Dương và các tỉnh lân cận. Các mẫu nhà thi công như:
+                     nhà phố, nhà cao tầng, biệt thự, nhà cấp 4, căn hộ chung cư mini.
+                    <span style="display: block;">Liên hệ : 0917 341 516</span>
+                </h2>
+                <p>
+                    Công Ty CP Kiến Trúc Xây Dựng TLT.Com xin gửi tới Quý khách hàng lời chào trân trọng và lời chúc thành công. 
+                    Trước hết chúng tôi xin được bày tỏ lòng cảm ơn đến với tất cả các khách hàng, đối tác đã luôn dành sự tin tưởng,
+                     yêu mến và quan tâm tới các công trình và dịch vụ của công ty chúng tôi. Với sự phát triển và đóng góp này,
+                      chúng tôi hi vọng sẽ giúp cho Quý khách hàng có thể biết thêm nhiều thông tin về các công trình kiến trúc, dịch vụ cũng như lịch sử của công ty.
+                    ...
+                    <a href="">Xem thêm</a>
+                </p>
+            </section>
+            <section class="icons-container">
+                <div class="icons">
+                    <div class="img">
+                        <img src="https://kientrucxaydungtlt.com/images/icon1.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>BẢNG BÁO GIÁ THIẾT KẾ KIẾN TRÚC</h3>
+                    </div>
+                </div>
+                <div class="icons">
+                    <div class="img">
+                       <img src="https://kientrucxaydungtlt.com/images/icon2.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>BẢNG BÁO GIÁ XÂY NHÀ PHẦN THÔ</h3>
+                    </div>
+                </div>
+                <div class="icons">
+                    <div class="img">
+                       <img src="https://kientrucxaydungtlt.com/images/icon3.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>BẢNG BÁO GIÁ XÂY NHÀ TRỌN GÓI</h3>
+                    </div>
+                </div>
+                <div class="icons">
+                    <div class="img">
+                        <img src="https://kientrucxaydungtlt.com/images/icon4.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>BẢNG BÁO GIÁ SỬA NHÀ TRỌN GÓI</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="product-slider-section">
+                <div class=heading>
+                    <img src="https://kientrucxaydungtlt.com/images/favicon.png" alt="">
+                    <h1>Công trình thi công</h1>
+                </div>
+                <div class="hr-wrapper">
+                    <hr class="centered-hr">
+                </div>
+                <div class="owl-carousel product-slider">
+                    <div class="product-item">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/hinh-hero-ban-giao-nha-chi-huong-hoc-mon-25122024013544.jpg?v=001" alt="Product 1">
+                            <div class="hover">
+                                <div class="fa fa-link"></div>
+                            </div>
+                        </div>
+                        <h3>Bàn giao nhà phố 1 trệt 1 lầu của gia đình chị Hường tại Hóc Môn </h3>
+                        <button><span>Xem chi tiết</span></button>                                   
+                    </div>
+                    <div class="product-item">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/hero-25012025033302.jpg?v=001" alt="Product 2">                           
+                            <div class="hover">
+                                <div class="fa fa-link"></div>
+                            </div>
+                        </div>                        
+                        <h3>CẢI TẠO CHUYÊN NGHIỆP - CÔNG TRÌNH NHÀ ANH KHANH ĐƯỢC BÀN GIAO ĐÚNG KỲ HẠN</h3>
+                        <button><span>Xem chi tiết</span></button>
+                    </div>
+                    <div class="product-item">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/ban-giao-cong-trinh-nha-chi-phuong-18032025094520.jpg?v=001" alt="Product 3">
+                            <div class="hover">
+                                <div class="fa fa-link"></div>
+                            </div>
+                        </div>                        
+                        <h3>Bàn giao công trình xây dựng nhà phố 2 tầng _CĐT: chị Phượng Hóc Môn </h3>
+                        <button><span>Xem chi tiết</span></button>
+                    </div>
+                    <div class="product-item">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/hero-01042025025917.jpg?v=001" alt="Product 4">
+                            <div class="hover">
+                                <div class="fa fa-link"></div>
+                            </div>
+                        </div>                        
+                        <h3>Bàn giao dự án nhà anh Hải quận 12</h3>
+                        <button><span>Xem chi tiết</span></button>
+                    </div>
+                    <div class="product-item">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/hinh-hero-ban-giao-nha-chi-phuong-cu-chi-05122024093837.jpg?v=001" alt="Product 1">
+                            <div class="hover">
+                                <div class="fa fa-link"></div>
+                            </div>
+                        </div>
+                        <h3>Bàn Giao Biệt Thự Nhà Bè – Dấu Ấn Đẳng Cấp Từ Kiến Trúc Xây Dựng TLT</h3>
+                        <button><span>Xem chi tiết</span></button>
+                    </div>
+                    <div class="product-item">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/hinh-hero-ban-giao-nha-chi-huong-hoc-mon-25122024013544.jpg?v=001" alt="Product 2">
+                            <div class="hover">
+                                <div class="fa fa-link"></div>
+                            </div>
+                        </div>                       
+                        <h3>Bàn Giao Villa Như Ý – Công Trình Thi Công Tại Bình Thuận Của TLT</h3>
+                        <button><span>Xem chi tiết</span></button>
+                    </div>
+                    <div class="product-item">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/ban-giao-du-an-xay-nha-tai-ben-tre.jpg?v=001" alt="Product 3">
+                            <div class="hover">
+                                <div class="fa fa-link"></div>
+                            </div>
+                        </div>                        
+                        <h3>Bàn giao công trình hoàn thiện biệt thự tại Bến Tre</h3>
+                        <button><span>Xem chi tiết</span></button>
+                    </div>
+                    <div class="product-item">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/hero-image_600x-500.jpg?v=001" alt="Product 4">
+                            <div class="hover">
+                                <div class="fa fa-link"></div>
+                            </div>
+                        </div>                        
+                        <h3>Bàn giao nhà phố của chị Phượng tại Củ Chi</h3>
+                        <button><span>Xem chi tiết</span></button>
+                    </div>
+                </div>
+            </section>
+            <section class="comments">
+                <div class=heading>
+                    <img src="https://kientrucxaydungtlt.com/images/favicon.png" alt="">
+                    <h1>Ý kiến khách hàng</h1>
+                </div>
+                <div class="hr-wrapper">
+                    <hr class="centered-hr">
+                </div>
+                <div class="owl-carousel product-slideryt">
+                    <div class="product-itemyt">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/hinh-hero-ban-giao-nha-chi-huong-hoc-mon-25122024013544.jpg?v=001" alt="Product 1">
+                            <div class="icon">
+                                <img src="https://kientrucxaydungtlt.com/images/youtube_play.png?v=001" alt="">
+                            </div>
+                        </div>
+                        <h3>Bàn giao nhà phố 1 trệt 1 lầu của gia đình chị Hường tại Hóc Môn </h3>                                  
+                    </div>
+                    <div class="product-itemyt">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/hero-25012025033302.jpg?v=001" alt="Product 2">                           
+                            <div class="icon">
+                                <img src="https://kientrucxaydungtlt.com/images/youtube_play.png?v=001" alt="">
+                            </div>
+                        </div>                        
+                        <h3>CẢI TẠO CHUYÊN NGHIỆP - CÔNG TRÌNH NHÀ ANH KHANH ĐƯỢC BÀN GIAO ĐÚNG KỲ HẠN</h3>
+                    </div>
+                    <div class="product-itemyt">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/ban-giao-cong-trinh-nha-chi-phuong-18032025094520.jpg?v=001" alt="Product 3">
+                            <div class="icon">
+                                <img src="https://kientrucxaydungtlt.com/images/youtube_play.png?v=001" alt="">
+                            </div>
+                        </div>                        
+                        <h3>Bàn giao công trình xây dựng nhà phố 2 tầng _CĐT: chị Phượng Hóc Môn </h3>
+                    </div>
+                    <div class="product-itemyt">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/hero-01042025025917.jpg?v=001" alt="Product 4">
+                            <div class="icon">
+                                <img src="https://kientrucxaydungtlt.com/images/youtube_play.png?v=001" alt="">
+                            </div>
+                        </div>                        
+                        <h3>Bàn giao dự án nhà anh Hải quận 12</h3>
+                    </div>
+                    <div class="product-itemyt">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/hinh-hero-ban-giao-nha-chi-phuong-cu-chi-05122024093837.jpg?v=001" alt="Product 1">
+                            <div class="icon">
+                                <img src="https://kientrucxaydungtlt.com/images/youtube_play.png?v=001" alt="">
+                            </div>
+                        </div>
+                        <h3>Bàn Giao Biệt Thự Nhà Bè – Dấu Ấn Đẳng Cấp Từ Kiến Trúc Xây Dựng TLT</h3>
+                    </div>
+                </div>            
+            </section>
+            <!-- POST1 -->
+            <section class="post-section">
+                <div class=heading>
+                    <img src="https://kientrucxaydungtlt.com/images/favicon.png" alt="">
+                    <h1>Thiết kế kiến trúc</h1>
+                </div>
+                <div class="hr-wrapper">
+                    <hr class="centered-hr">
+                </div>                
+                <div class="main-layout">
+                    <div class="left-column">
+                        <div class="post large">
+                            <div class="img">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/top-nhung-mau-nha-dep-hien-nay-thiet-ke-kien-truc-23112024082844.jpg?v=001" alt="Post 1">
+                                <div class="hover">
+                                    <div class="fa fa-link"></div>
+                                </div>
+                            </div>
+                            <h3>XÂY NHÀ TẦNG HẦM TẠI HCM “XU HƯỚNG XÂY DỰNG NHÀ PHỐ MỚI NHẤT 2025”</h3>
+                            <p>Trong điều kiện đô thị hóa phát triển, hạ tầng đỗ xe bị hạn chế thì nhu cầu xây nhà tầng hầm tại HCM...</p>
+                            <button>XEM CHI TIẾT</button>
+                        </div>
+                        <div class="post large">
+                            <div class="img">
+                               <img src="https://kientrucxaydungtlt.com/Upload/News/xay-nha-tang-ham-23112024044641.jpg?v=001" alt="Post 2">
+                                <div class="hover">
+                                    <div class="fa fa-link"></div>
+                                </div>
+                            </div>
+                            <h3>[CẬP NHẬT MỚI NHẤT] CÁC MẪU NHÀ ĐẸP NHẤT HIỆN NAY</h3>
+                            <p>Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p>
+                            <button>XEM CHI TIẾT</button>
+                        </div>
+                        <div class="post large">
+                            <div class="img">
+                               <img src="https://kientrucxaydungtlt.com/Upload/News/thiet-ke-san-thuong-dep-23112024083259.jpg?v=001" alt="Post 1">
+                                <div class="hover">
+                                    <div class="fa fa-link"></div>
+                                </div>
+                            </div>
+                            <h3>XÂY NHÀ TẦNG HẦM TẠI HCM “XU HƯỚNG XÂY DỰNG NHÀ PHỐ MỚI NHẤT 2025”</h3>
+                            <p>Trong điều kiện đô thị hóa phát triển, hạ tầng đỗ xe bị hạn chế thì nhu cầu xây nhà tầng hầm tại HCM...</p>
+                            <button>XEM CHI TIẾT</button>
+                        </div>
+                        
+                        <div class="post large">
+                            <div class="img">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/thiet-ke-tang-tret-600-x-500.jpg?v=001" alt="Post 2">
+                                <div class="hover">
+                                    <div class="fa fa-link"></div>
+                                </div>
+                            </div>                            
+                            <h3>[CẬP NHẬT MỚI NHẤT] CÁC MẪU NHÀ ĐẸP NHẤT HIỆN NAY</h3>
+                            <p>Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p>
+                            <button>XEM CHI TIẾT</button>
+                        </div>
+                    </div>
+
+                    <div class="right-column">
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/y-tuong-thiet-ke-noi-that-tu-a-den-z.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Ý TƯỞNG THIẾT KẾ HOÀN THIỆN NỘI THẤT A-Z</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/ngoi-nha-toi-gian-o-nhat_600-x-500.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Ngôi nhà thiết kế siêu tối giản tại Nhật</h3>
+                                <p class="post-description">Ngôi nhà được xây dựng tại một trong những khu nhà thiết kế siêu tối giản tại Nhật</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/314598860_794594478498354_1439229890130896351_n.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Tối ưu không gian nhà phố 80m2 với tông màu xám – đen sang trọng</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/dich-vu-thiet-ke-thi-cong-biet-thu-dep.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Dịch vụ thiết kế thi công biệt thự đẹp</h3>
+                                <p class="post-description">Biệt thự đang trở thành công trình nhà ở được ưa chuộng nhất hiện nay.
+                                     Bởi biệt thự không chỉ thể hiện được vị thế, đẳng cấp riêng của gia chủ,
+                                      dịch vụ thiết kế thi công biệt thự đẳng cấp còn đem đến công năng tiện nghi tuyệt vời,
+                                       đáp ứng nhu cầu sinh sống của bất kỳ đối tượng nào.</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/phuong-phap-trang-tri-phong-ngu-nho.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Phương pháp trang trí phòng ngủ nhỏ khoa học và thông minh</h3>
+                                <p class="post-description">Một phòng ngủ không cần diện tích lớn để trở phương pháp trang trí phòng ngủ nhỏ khoa học và thông minh</p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- POST 2-->
+            <section class="post-section1">
+                <div class=heading>
+                    <img src="https://kientrucxaydungtlt.com/images/favicon.png" alt="">
+                    <h1>Xây dựng nhà</h1>
+                </div>
+                <div class="hr-wrapper">
+                    <hr class="centered-hr">
+                </div>                
+                <div class="main-layout">
+                    <div class="left-column">
+                        <div class="post large">
+                            <div class="img">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/nha-tan-co-dien-10042025031907.jpg?v=001" alt="Post 1">
+                                <div class="hover">
+                                    <div class="fa fa-link"></div>
+                                </div>
+                            </div>
+                            <h3>Tư vấn xây nhà Tân Cổ Điển: Tư vấn thiết kế, Bảng giá thi công, Chọn nhà thầu uy tín</h3>
+                            <p>Xây nhà trọn gói phong cách tân cổ điển cùng TLT, bảng giá phần thô cạnh tranh, thiết kế thi công trọn gói.</p>
+                            <button>XEM CHI TIẾT</button>
+                        </div>
+                        <div class="post large">
+                            <div class="img">
+                               <img src="https://kientrucxaydungtlt.com/Upload/News/cac-mau-nha-dep-28032025043301.jpg?v=001" alt="Post 2">
+                                <div class="hover">
+                                    <div class="fa fa-link"></div>
+                                </div>
+                            </div>
+                            <h3>Xây Nhà Có Tầng Hầm Chìm Đẹp – Giải Pháp Tối Ưu Không Gian & Công Năng</h3>
+                            <p>Xây nhà có tầng hầm chìm là giải pháp tối ưu giúp tận dụng không gian, 
+                                tăng diện tích sử dụng và tạo sự thông thoáng cho ngôi nhà. Liên hệ ngay hotline/zalo: 0917341516 để nhận tư vấn.</p>
+                            <button>XEM CHI TIẾT</button>
+                        </div>
+                        <div class="post large">
+                            <div class="img">
+                               <img src="https://kientrucxaydungtlt.com/Upload/News/xay-nha-tron-goi-kien-giang-14022025030446.jpg?v=001" alt="Post 1">
+                                <div class="hover">
+                                    <div class="fa fa-link"></div>
+                                </div>
+                            </div>
+                            <h3>Dịch vụ xây nhà trọn gói tại Kiên Giang chuyên nghiệp”</h3>
+                            <p>Gợi ý các mẫu nhà đẹp, sang trọng với chi phí xây nhà hợp lý tại Kiên Giang. Hình thức xây dựng nhà trọn gói tại Kiên Giang do nhà thầu TLT phụ trách,
+                                 đảm bảo công trình chất lượng – uy tín và chuyên nghiệp.</p>
+                            <button>XEM CHI TIẾT</button>
+                        </div>
+                        
+                        <div class="post large">
+                            <div class="img">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/hinh-dai-dien-22012025040711.jpg?v=001" alt="Post 2">
+                                <div class="hover">
+                                    <div class="fa fa-link"></div>
+                                </div>
+                            </div>                            
+                            <h3>Dịch vụ xây nhà trọn gói tại Kiên Giang chuyên nghiệp</h3>
+                            <p>Gợi ý các mẫu nhà đẹp, sang trọng với chi phí xây nhà hợp lý tại Kiên Giang. Hình thức xây dựng nhà trọn gói tại Kiên Giang do nhà thầu TLT phụ trách,
+                                 đảm bảo công trình chất lượng – uy tín và chuyên nghiệp.</p>
+                            <button>XEM CHI TIẾT</button>
+                        </div>
+                    </div>
+
+                    <div class="right-column">
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/xay-nha-tron-goi-ban-giao-chu-minh-tan-binh-29112024021234.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Bạn đang có nhu cầu sửa nhà cũ?</h3>
+                                <p class="post-description">Bạn đang có nhu cầu sửa nhà cũ, sửa nhà trọn gói giá rẻ ?
+                                     Căn nhà của bạn sau nhiều năm sử dụng đã xuống cấp trầm trọng, tường cũ bong tróc,
+                                      trần nhà bị dột, hệ thống điện nước xuống cấp?</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/cai-tao-nha-dep-gia-re-06122024041224.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Dịch vụ sửa chữa nhà trọn gói “cải tạo nhà đẹp giá rẻ” uy tín nhất 2025</h3>
+                                <p class="post-description">Sửa chữa nhà được xem như “cuộc cách mạng” thay đổi lại toàn bộ không gian sống của gia đình bạn. Chủ nhà không chỉ cần đầu tư tiền bạc, 
+                                    mà còn cần dành thời gian và công sức; để giúp ngôi nhà đã cũ được mặc lên chiếc áo mới xinh đẹp và tinh tế hơn.
+                                     Để việc sửa nhà được diễn ra thuận lợi; chủ nhà cần nắm được những điều cơ bản sau đây về dịch vụ sửa nhà trên thị trường hiện nay.
+                                      Mời quý khách tham khảo !</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/sua-chua-nha-ve-sinh.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Chi phí sửa chữa nhà vệ sinh nhà tắm</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/sua-nha-cap-4-gia-re.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Sửa nhà cấp 4 - Cải tạo lại tổ ấm “tiết kiệm” & “hiệu quả”</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/y-tuong-thiet-ke-noi-that-tu-a-den-z.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Ý TƯỞNG THIẾT KẾ HOÀN THIỆN NỘI THẤT A-Z</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Post 3 -->
+            <section class="post-section">
+                <div class=heading>
+                    <img src="https://kientrucxaydungtlt.com/images/favicon.png" alt="">
+                    <h1>Sửa chữa nhà trọn gói</h1>
+                </div>
+                <div class="hr-wrapper">
+                    <hr class="centered-hr">
+                </div>                
+                <div class="main-layout">
+                    <div class="left-column">
+                        <div class="post large">
+                            <div class="img">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/sua-nha-tai-bd_hero-25042025091555.jpg?v=001" alt="Post 1">
+                                <div class="hover">
+                                    <div class="fa fa-link"></div>
+                                </div>
+                            </div>
+                            <h3>XÂY NHÀ TẦNG HẦM TẠI HCM “XU HƯỚNG XÂY DỰNG NHÀ PHỐ MỚI NHẤT 2025”</h3>
+                            <p>Trong điều kiện đô thị hóa phát triển, hạ tầng đỗ xe bị hạn chế thì nhu cầu xây nhà tầng hầm tại HCM...</p>
+                            <button>XEM CHI TIẾT</button>
+                        </div>
+                        <div class="post large">
+                            <div class="img">
+                               <img src="https://kientrucxaydungtlt.com/Upload/News/sua-nha-quan-CU-CHI.jpg?v=001" alt="Post 2">
+                                <div class="hover">
+                                    <div class="fa fa-link"></div>
+                                </div>
+                            </div>
+                            <h3>[CẬP NHẬT MỚI NHẤT] CÁC MẪU NHÀ ĐẸP NHẤT HIỆN NAY</h3>
+                            <p>Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p>
+                            <button>XEM CHI TIẾT</button>
+                        </div>
+                        <div class="post large">
+                            <div class="img">
+                               <img src="https://kientrucxaydungtlt.com/Upload/News/5-giai-phap-cai-bien-toi-uu-29112024021436.jpg?v=001" alt="Post 1">
+                                <div class="hover">
+                                    <div class="fa fa-link"></div>
+                                </div>
+                            </div>
+                            <h3>5 giải pháp cải tạo bếp tối ưu – Cải tạo nhà trọn gói</h3>
+                            <p>Sắp sang năm mới, mọi người đã bắt đầu tân trang, dọn dẹp nhà để đón Tết chưa? Căn bếp không chỉ là 
+                                nơi nuôi dưỡng sức khỏe thể chất mà còn là “trái tim” của ngôi nhà, giữ lửa tổ ấm qua những món ăn ngon, mâm cơm gia đình.</p>
+                            <button>XEM CHI TIẾT</button>
+                        </div>
+                        
+                        <div class="post large">
+                            <div class="img">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/sua-nha-don-tet.jpg?v=001" alt="Post 2">
+                                <div class="hover">
+                                    <div class="fa fa-link"></div>
+                                </div>
+                            </div>                            
+                            <h3>Sửa nhà đón tết – Tiết kiệm tối đa kinh phí sửa nhà cùng TLT</h3>
+                            <p>Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p>
+                            <button>XEM CHI TIẾT</button>
+                        </div>
+                    </div>
+
+                    <div class="right-column">
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/mau-biet-thu-2-tang-600-x-500.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Ý TƯỞNG THIẾT KẾ HOÀN THIỆN NỘI THẤT A-Z</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/co-nen-xay-nha-tron-goi-hay-tu-xay.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Ý TƯỞNG THIẾT KẾ HOÀN THIỆN NỘI THẤT A-Z</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/top-nhung-mau-nha-1-tret-1-lau.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Ý TƯỞNG THIẾT KẾ HOÀN THIỆN NỘI THẤT A-Z</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/xay-nha-tron-goi-tphcm.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Ý TƯỞNG THIẾT KẾ HOÀN THIỆN NỘI THẤT A-Z</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/banner-kinh-nghiem-xay-nha-tron-goi.png?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Ý TƯỞNG THIẾT KẾ HOÀN THIỆN NỘI THẤT A-Z</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/banner-kinh-nghiem-xay-nha-tron-goi.png?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Ý TƯỞNG THIẾT KẾ HOÀN THIỆN NỘI THẤT A-Z</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/banner-kinh-nghiem-xay-nha-tron-goi.png?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Ý TƯỞNG THIẾT KẾ HOÀN THIỆN NỘI THẤT A-Z</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/banner-kinh-nghiem-xay-nha-tron-goi.png?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Ý TƯỞNG THIẾT KẾ HOÀN THIỆN NỘI THẤT A-Z</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>           
+            <!-- Produts -->
+            <section class="product-section">
+                <div class=heading>
+                    <img src="https://kientrucxaydungtlt.com/images/favicon.png" alt="">
+                    <h1>Hoàn thiện căn hộ</h1>
+                </div>
+                <div class="hr-wrapper">
+                    <hr class="centered-hr">
+                </div>
+                <div class="products">
+                    <div class="product-item">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/hero-ban-giao-biet-thu-06052025041653.jpg?v=001" alt="Product 1">
+                            <div class="hover">
+                                <div class="fa fa-link"></div>
+                            </div>
+                        </div>
+                        <h3>Bàn Giao Biệt Thự Nhà Bè – Dấu Ấn Đẳng Cấp Từ Kiến Trúc Xây Dựng TLT </h3>
+                        <p>TLT vừa bàn giao biệt thự hoàn thiện tại Nhà Bè, từ lễ khởi công đến nội thất cao cấp. Xem ngay hành trình thi công và kết quả bàn giao ấn tượng.</p>
+                        <button><span>Xem chi tiết</span></button>                                   
+                    </div>
+                    <div class="product-item">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/chi-phi-xay-dung-chung-cu-25022025011409.jpg?v=001" alt="Product 2">                           
+                            <div class="hover">
+                                <div class="fa fa-link"></div>
+                            </div>
+                        </div>                    
+                        <h3>Xu hướng xây dựng chung cư mini vừa ở vừa cho thuê</h3>
+                        <p>
+                            Xây dựng nhà chung cư mini là dạng nhà ở có nhiều căn hộ nhỏ trong cùng một tòa nhà, thường cao từ 3 – 7 tầng.
+                             Mỗi căn hộ trong chung cư mini thường có đẩy đủ các tiện ích cơ bản như: phòng ngủ, phòng khách, bếp, wc, phù hợp cho sinh viên, người đi làm hoặc gia đình nhỏ.
+                        </p>    
+                        <button><span>Xem chi tiết</span></button>
+                    </div>
+                    <div class="product-item">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/hero-image_600x-500.jpg?v=001" alt="Product 3">
+                            <div class="hover">
+                                <div class="fa fa-link"></div>
+                            </div>
+                        </div>                        
+                        <h3>Hoàn thiện và bàn giao dự án xây dựng trọn gói nhà anh Hải</h3>
+                        <p>
+                            Kiến Trúc Xây Dựng TLT tự hào là một trong những nhà thầu thi công xây dựng nhà uy tín chất lượng Top đầu tại TPHCM và các tỉnh thành lân cận,
+                             chuyên cung cấp các dịch vụ xây nhà trọn gói từ thiết kế nhà tới thi công hoàn thiện xây dựng.
+                        </p>
+                        <button><span>Xem chi tiết</span></button>
+                    </div>
+                    <div class="product-item">
+                        <div class="img">
+                            <img src="https://kientrucxaydungtlt.com/Upload/News/hoan-thien-nha-1.jpg?v=001" alt="Product 4">
+                            <div class="hover">
+                                <div class="fa fa-link"></div>
+                            </div>
+                        </div>                        
+                        <h3>Tư vấn chi phí hoàn thiện căn hộ</h3>
+                        <p>Kiến Trúc Xây Dựng TLT tự hào là một trong những nhà thầu thi công xây dựng nhà uy tín chất lượng Top đầu tại TPHCM và các tỉnh thành lân cận,
+                             chuyên cung cấp các dịch vụ xây nhà trọn gói từ thiết kế nhà tới thi công hoàn thiện xây dựng.</p>
+                        <button><span>Xem chi tiết</span></button>
+                    </div>
+                </div>
+            </section>
+            <!-- Post 4 -->
+            <section class="post-section">
+                <div class=heading>
+                    <img src="https://kientrucxaydungtlt.com/images/favicon.png" alt="">
+                    <h1>Thiết kế kiến trúc</h1>
+                </div>
+                <div class="hr-wrapper">
+                    <hr class="centered-hr">
+                </div>                
+                <div class="main-layout">
+                    <div class="left-column">
+                        <div class="post large">
+                            <div class="img">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/top-nhung-mau-nha-dep-hien-nay-thiet-ke-kien-truc-23112024082844.jpg?v=001" alt="Post 1">
+                                <div class="hover">
+                                    <div class="fa fa-link"></div>
+                                </div>
+                            </div>
+                            <h3>XÂY NHÀ TẦNG HẦM TẠI HCM “XU HƯỚNG XÂY DỰNG NHÀ PHỐ MỚI NHẤT 2025”</h3>
+                            <p>Trong điều kiện đô thị hóa phát triển, hạ tầng đỗ xe bị hạn chế thì nhu cầu xây nhà tầng hầm tại HCM...</p>
+                            <button>XEM CHI TIẾT</button>
+                        </div>
+                        <div class="post large">
+                            <div class="img">
+                               <img src="https://kientrucxaydungtlt.com/Upload/News/xay-nha-tang-ham-23112024044641.jpg?v=001" alt="Post 2">
+                                <div class="hover">
+                                    <div class="fa fa-link"></div>
+                                </div>
+                            </div>
+                            <h3>[CẬP NHẬT MỚI NHẤT] CÁC MẪU NHÀ ĐẸP NHẤT HIỆN NAY</h3>
+                            <p>Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p>
+                            <button>XEM CHI TIẾT</button>
+                        </div>
+                        <div class="post large">
+                            <div class="img">
+                               <img src="https://kientrucxaydungtlt.com/Upload/News/thiet-ke-san-thuong-dep-23112024083259.jpg?v=001" alt="Post 1">
+                                <div class="hover">
+                                    <div class="fa fa-link"></div>
+                                </div>
+                            </div>
+                            <h3>XÂY NHÀ TẦNG HẦM TẠI HCM “XU HƯỚNG XÂY DỰNG NHÀ PHỐ MỚI NHẤT 2025”</h3>
+                            <p>Trong điều kiện đô thị hóa phát triển, hạ tầng đỗ xe bị hạn chế thì nhu cầu xây nhà tầng hầm tại HCM...</p>
+                            <button>XEM CHI TIẾT</button>
+                        </div>
+                        
+                        <div class="post large">
+                            <div class="img">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/thiet-ke-tang-tret-600-x-500.jpg?v=001" alt="Post 2">
+                                <div class="hover">
+                                    <div class="fa fa-link"></div>
+                                </div>
+                            </div>                            
+                            <h3>[CẬP NHẬT MỚI NHẤT] CÁC MẪU NHÀ ĐẸP NHẤT HIỆN NAY</h3>
+                            <p>Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p>
+                            <button>XEM CHI TIẾT</button>
+                        </div>
+                    </div>
+
+                    <div class="right-column">
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/y-tuong-thiet-ke-noi-that-tu-a-den-z.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Ý TƯỞNG THIẾT KẾ HOÀN THIỆN NỘI THẤT A-Z</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/y-tuong-thiet-ke-noi-that-tu-a-den-z.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Ý TƯỞNG THIẾT KẾ HOÀN THIỆN NỘI THẤT A-Z</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/y-tuong-thiet-ke-noi-that-tu-a-den-z.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Ý TƯỞNG THIẾT KẾ HOÀN THIỆN NỘI THẤT A-Z</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/y-tuong-thiet-ke-noi-that-tu-a-den-z.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Ý TƯỞNG THIẾT KẾ HOÀN THIỆN NỘI THẤT A-Z</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                        <div class="post small">
+                            <div class="post-thumbnail">
+                                <img src="https://kientrucxaydungtlt.com/Upload/News/y-tuong-thiet-ke-noi-that-tu-a-den-z.jpg?v=001" alt="Post 2">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title">Ý TƯỞNG THIẾT KẾ HOÀN THIỆN NỘI THẤT A-Z</h3>
+                                <p class="post-description">Kiến Trúc Xây Dựng TLT xin giới thiệu đến quý khách những xu hướng thiết kế mẫu nhà đẹp nhất 2025...</p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Form -->
+            <section class="calculator-section">
+                <div class=heading>
+                    <img src="https://kientrucxaydungtlt.com/images/favicon.png" alt="">
+                    <h1>Thiết kế kiến trúc</h1>
+                </div>
+                <div class="hr-wrapper">
+                    <hr class="centered-hr">
+                </div>                      
+                <form class="calculator-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Loại công trình:</label>
+                            <select><option>Nhà phố</option></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Mức đầu tư:</label>
+                            <select><option>Xây nhà trọn gói</option></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Chiều rộng <span style="color: red;">(*)</span>:</label>
+                            <input type="number" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Chiều dài <span style="color: red;">(*)</span>:</label>
+                            <input type="number" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Số tầng (Trừ tum, lửng) <span style="color: red;">(*)</span>:</label>
+                            <select><option>1 tầng</option></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Diện tích lửng:</label>
+                            <input type="number" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Diện tích tum:</label>
+                            <input type="number" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Độ vươn ban công:</label>
+                            <select><option>0 m</option></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Móng:</label>
+                            <select><option>Móng đài cọc</option></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Tầng hầm:</label>
+                            <select><option>Không hầm</option></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Mái:</label>
+                            <select><option>Mái tôn</option></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Diện tích sân vườn:</label>
+                            <input type="number" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Hẻm:</label>
+                            <select><option>Rộng hơn 5m</option></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Mặt tiền:</label>
+                            <input type="number" value="1" />
+                        </div>
+                    </div>
+                    <div>
+                    <button type="submit" class="submit-btn">Tính kết quả</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <img src="https://kientrucxaydungtlt.com/images/favicon.png" alt="">
+                    <h3>CÔNG TY CP KIẾN TRÚC XÂY DỰNG TLT.COM</h3>
+                    <p>Điện thoại: 0976 272 186</p>
+                    <p>Zalo: 0917 341 516</p>
+                    <p>Email:kientrucxaydungtlt8688@gmail.com</p>
+                    <p>Văn Phòng: Số 51 Đường Số 3, Khu Đô Thị Vạn Phúc, QL13, P. Hiệp Bình, TP.HCM.</p>
+                    <p>CN1: 200/78/19 Bưng Ông Thoàn - P. Phú Hữu - TP. Thủ Đức - TPHCM.</p>
+                    <p>CN2: Số 68 - Hẻm 1 - Tổ 3B - KP Hương Phước - P. Phước Tân - TP Biên Hòa - Đồng Nai.</p>
+                    <p>CN3: Đường Dk4A - Kp3A - P. Thới Hoà - TP. Bến Cát - Bình Dương.</p>
+                    <p>Xưởng cơ khí - nội thất: 261A Bưng Ông Thoàn - P. Tăng Nhơn Phú, TP. Thủ Đức, TP.HCM.</p>
+                </div>
+                <div class="box">
+                <h3>THÔNG TIN</h3>
+                    <a class="a" href="#" target="_blank">Giới thiệu</a>
+                    <a class="a" href="" target="_blank">Chính sách bảo mật thông tin</a>
+                    <a class="a" href="#" target="_blank">Chính sách dịch vụ</a>
+                    <a  class="a"href="#" target="_blank">Chính sách thanh toán</a>
+                    <a class="a" href="#" target="_blank">Chính sách bảo hành</a>
+                    <a class="a" href="" target="_blank">Hợp đồng thi công nhà mới</a>
+                    <a class="a" href="#" target="_blank">Hợp đồng sửa chữa</a>
+                    <a  class="a"href="#" target="_blank">Các bước quy trình xây dựng</a>
+                </div>
+                <div class="box">
+                <h3>THÔNG BÁO BỘ CÔNG THƯƠNG</h3>
+                    <img src="https://kientrucxaydungtlt.com/images/bct.webp" alt=""> <br>
+                    <img src="https://images.dmca.com/Badges/dmca-badge-w200-5x1-07.png?ID=31eacc30-fd8f-4d6a-bbb3-f6d908df4cc3" alt="">
+                    <div id="fb-root"></div>
+                    <script async defer crossorigin="anonymous" 
+                    src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v17.0" nonce="abc123">
+                    </script>
+
+                    <div class="fb-page" 
+                    data-href="https://www.facebook.com/kientrucxaydungtlt" 
+                    data-tabs="" 
+                    data-width="300" 
+                    data-height="" 
+                    data-small-header="false" 
+                    data-adapt-container-width="true" 
+                    data-hide-cover="false" 
+                    data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/kientrucxaydungtlt" class="fb-xfbml-parse-ignore">
+                        <a href="https://www.facebook.com/kientrucxaydungtlt">Kiến Trúc Xây Dựng TLT</a>
+                    </blockquote>
+                    </div>
+
+                </div>
+            </div>
+            <div class="credit">
+                Copyright© 2019 KIEN TRUC XAY DUNG TLT. All rights reserved.
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
+<script>
+  window.addEventListener('scroll', function () {
+    const nav = document.querySelector('nav');
+    if (window.scrollY > 0) {
+      nav.classList.add('sticky-animate');
+    } else {
+      nav.classList.remove('sticky-animate');
+    }
+  });
+</script>
+
+<script>
+$(document).ready(function(){
+  $(".product-slider").owlCarousel({
+    loop: true,
+    nav: true,
+    autoplay: true,
+    autoplayTimeout: 3000, // chuyển chậm hơn
+    autoplaySpeed: 1500,   // tốc độ autoplay mượt hơn
+    smartSpeed: 800,      // tốc độ chuyển khi click hoặc drag
+    autoplayHoverPause: true,
+    responsive: {
+        0: {
+          items: 1
+        },
+        576: {
+          items: 2
+        },
+        768: {
+          items: 3
+        },
+        992: {
+          items: 4
+        }
+    }
+  });
+});
+
+</script>
+<script>
+  $(document).ready(function(){
+    $('.product-slideryt').owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: true,
+    //   dots: false,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplaySpeed: 1500,
+      smartSpeed: 800, 
+      responsive: {
+        0: { items: 1 },
+        768: { items: 2 },
+        992: { items: 3 }
+      }
+    });
+  });
+</script>
+
+
+
