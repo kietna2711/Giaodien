@@ -819,7 +819,7 @@ footer.footer {
 
 @media (max-width: 1200px) {
     html{
-        font-size: 80%;
+/*         font-size: 80%; */
     }
     .header{
         width: 100rem;
