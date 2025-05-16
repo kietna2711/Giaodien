@@ -831,7 +831,7 @@ footer.footer {
 
 @media (max-width: 992px) {
     html{
-/*         font-size: 70%; */
+        font-size: 70%;
     }
     header .header {
         display: flex;
